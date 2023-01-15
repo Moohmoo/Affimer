@@ -1,0 +1,36 @@
+0. Les programmes utlisables
+getSurface.R
+getBindingSite.R
+PS3.R
+SiteAlign.R
+
+1. Il faut installer 
+freesasa-2.0.3.tar
+
+# sous R
+> install.packages("bio3d")
+> install.packages("argparser")
+> install.packages("vanddraabe")
+> install.packages("Rcpp")
+
+2. au plus simple:
+export patchsearch_HOME=/home/frederic/3D/PatchSearch/NS3/PS2.3
+# une proteine
+id=xxxx #
+# un binding site
+bs=yyyy #
+Rscript $patchsearch_HOME/SimpleAtomTyping.R $bs.pdb -o $bs_modifie.pdb
+Rscript  $patchsearch_HOME/BSS.R $id.pdb $bs.pdb
+
+
+3.
+BSBANK=/home/frederic/3D/PeptiDB/BSBank 
+export patchsearch_HOME=/home/frederic/3D/PatchSearch/NS3/PS2.3
+id=xxxx
+Rscript  $patchsearch_HOME/BSS.R $id.pdb $BSBANK -p 1 -o $id.out --prefix $id
+
+4.
+BSBANK=/home/frederic/3D/PeptiDB/BSBank 
+export patchsearch_HOME=/home/frederic/3D/PatchSearch/NS3/PS2.3
+id=xxxx
+Rscript  $patchsearch_HOME/BSS.R $id.pdb $BSBANK -p 1 -o $id.out --prefix $id --align
