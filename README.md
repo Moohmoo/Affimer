@@ -38,7 +38,7 @@ positional arguments:
 
 ### Program input
 All files are in PDB format. The affimer and the target protein, they must be in the test folder and in the folder dedicated to it.
-It is necessary to install an antigen antibody complex dataset and place it in the data/dataset directory.
+It is necessary to install an antigen antibody complex dataset and place it in the 'data/dataset' directory.
 
 ### Program output
 
