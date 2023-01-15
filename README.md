@@ -4,7 +4,7 @@ This program aims to design a specific Affimer of a specific antigen.
 License : UPC
 
 Authors:
-* Bash and C implementation : Mohamed
+* Bash, Python and C implementation : Mohamed
 
 Last revision : 2023-January-05
 
