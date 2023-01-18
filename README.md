@@ -54,10 +54,10 @@ bash ./build.sh 5gs6 A 7ny8 C
 All the pdb files contains antibody to be tested must be present in the `data/dataset` folder in order to run the program.
 
 # Reference
-*I. Rasolohery, G. Moroy, F. Guyon PatchSearch : a fast computational method for off-target detection,
+*[1] I. Rasolohery, G. Moroy, F. Guyon PatchSearch : a fast computational method for off-target detection,
 Journal of chemical information and modeling, 2017*
 
-*J. Rey, I Rasolohery, P. Tufféry, F. Guyon, G. Moroy PatchSearch : a web server for off-target protein
+*[2] J. Rey, I Rasolohery, P. Tufféry, F. Guyon, G. Moroy PatchSearch : a web server for off-target protein
 identification, Nucleic acids research, 2019*
 
 # Contact
